@@ -1,7 +1,150 @@
+
+
+/********** Base styles **********/
+
 body {
 	background-color: gray;
+	font-family: Arial;
 }
 
 h1 {
-	font-color: blue;
+	color: blue;
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+#basediv {
+	background-color: black;
+	height: 400px;	
+}
+
+#largebox1 {
+  background-color: #A52A2A;
+  width: 25%;
+  float: right;
+  margin: 20px 100px 20px 20px;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 4px solid black;
+  box-sizing: border-box;
+  
+}
+
+#topcorner1 {
+	background-color: yellow;
+	height: 20px;
+	width: 100px;
+	margin: 0;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+#largebox2 {
+  background-color: #DEB887;
+  width: 25%;
+  float: right;
+  margin: 20px;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 4px solid black;
+  box-sizing: border-box;
+}
+
+#topcorner2 {
+	background-color: red;
+	height: 20px;
+	width: 100px;
+	margin: 0;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+#largebox3 {
+  background-color: #5F9EA0;
+  width: 25%;
+  float: right;
+  margin: 20px;
+  position: relative;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 4px solid black;
+  box-sizing: border-box;
+}
+
+#topcorner3 {
+	background-color: white;
+	height: 20px;
+	width: 100px;
+	margin: 0;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#largebox1 {
+
+width: 45%;
+margin: 20px;
+}
+
+#largebox2 {
+
+width: 45%;
+}
+
+#largebox3 {
+
+width: 95%;
+margin: 20px;
+}
+
+
+}
+
+
+
+
+/********** Medium devices only **********/
+@media (max-width: 767px) {
+
+#largebox1 {
+
+width: 80%;
+margin: 20px;
+}
+
+#largebox2 {
+
+width: 80%;
+}
+
+#largebox3 {
+
+width: 80%;
+}
+
+
 }
